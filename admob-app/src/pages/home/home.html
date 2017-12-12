@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ad App
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <h5>
+      A banner ad should appear at the bottom as soon as the app is ready loaded.
+  </h5>
+  <p>
+      Click a button to display an ad.
+  </p>
+
+<button ion-button (click)="showBanner()">Show Banner</button>
+<button ion-button (click)="showInterstitial()" color="secondary">Show Interstitial</button>
+<button ion-button (click)="showRewarded()" color="danger">Show Rewarded</button>
+
+</ion-content>
